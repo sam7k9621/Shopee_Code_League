@@ -27,3 +27,4 @@ data.dropna()
 df.agg({'A' : ['sum', 'min'], 'B' : ['min', 'max']})
 df.groupby('A').agg({'B': ['min', 'max'], 'C': 'sum'})
 
+
